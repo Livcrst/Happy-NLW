@@ -1,1 +1,23 @@
 /* Este é meu CSS principal */
+/* unidade de medida: em busca o elemento anterior, no caso do css é o html.
+rem busca no rooot (HTML */
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  color: white;
+}
+body,
+input,
+button,
+textarea {
+  font-size: 1.8rem;
+  font-family: "Nunito", "sans-serif";
+  line-height: 1;
+  font-weight: 400;
+}
